@@ -4,9 +4,20 @@ button {
     font-size: 5em !important; 
     transition: .5s;
     color: white;
-    background-color: blueviolet;
+    background-color: #9FA6B2;
 
 }
-button:hover{
-    background-color: rgb(117, 10, 218);
+
+.btn-x{
+    background-color: #14A44D;
+}
+.btn-x:hover{
+    background-color: #338b57;
+}
+.btn-o{
+    background-color: #DC4C64
+}
+.btn-o:hover{
+    background-color: #bd3e53
+
 }
