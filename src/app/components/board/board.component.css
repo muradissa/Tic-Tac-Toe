@@ -1,0 +1,32 @@
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+    margin: auto auto ;
+
+}
+  
+app-square {
+    border: 1px gray solid;
+    height: 200px;
+}
+.newGame{
+    margin: auto auto ;
+    color: #fff;
+    background-color: steelblue;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    height: 40px;
+    left:50%
+
+}
+.main-board{
+    /* margin: auto auto ;
+    align-items: center; */
+    display: flex;
+}
+.text-board{
+    display: block;
+    margin: auto auto ;
+    text-align: center;
+}
