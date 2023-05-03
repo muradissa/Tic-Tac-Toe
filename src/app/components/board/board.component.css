@@ -9,6 +9,7 @@ main {
 app-square {
     border: 1px gray solid;
     height: 200px;
+    z-index: 20;
 }
 .newGame{
     color: #fff;
@@ -25,9 +26,11 @@ app-square {
 
 }
 .main-board{
-    /* margin: auto auto ;
-    align-items: center; */
+ 
+
     display: flex;
+
+
 }
 .text-board{
     color: #fff;
