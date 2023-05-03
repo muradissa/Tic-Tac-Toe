@@ -11,13 +11,16 @@ app-square {
     height: 200px;
 }
 .newGame{
-    margin: auto auto ;
     color: #fff;
-    background-color: steelblue;
+    background-color: rgb(149, 70, 180);
     border-radius: 1rem;
     margin-bottom: 10px;
+    border-color: rgb(83, 43, 226);
     height: 40px;
-    left:50%
+    transition: 0.5s;
+}
+.newGame:hover{
+    background-color: rgb(83, 43, 226);
 
 }
 .main-board{
